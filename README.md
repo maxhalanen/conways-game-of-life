@@ -9,7 +9,7 @@ just make sure you are still passing the correct board when initializing the gam
 
 
 -----------------------------
-         Future Ideas
+Future Ideas
 -----------------------------
 
 - Add to a resume website
