@@ -68,5 +68,7 @@ while True:
     os.system('cls' if os.name == 'nt' else 'clear')
     game.game_of_life()
     game.print_board()
+    
+    # end loop
     if game.board_status():
         break
