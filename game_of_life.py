@@ -58,17 +58,13 @@ class GameOfLife:
             return True
         return False
 
-
-# game object
 game = GameOfLife(boards.board)
 
-# run game
 while True:
     time.sleep(0.1)
     os.system('cls' if os.name == 'nt' else 'clear')
     game.game_of_life()
     game.print_board()
     
-    # end loop
     if game.board_status():
         break
