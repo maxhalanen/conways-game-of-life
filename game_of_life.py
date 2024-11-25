@@ -59,7 +59,7 @@ class GameOfLife:
         return False
 
 
-
+# game object
 game = GameOfLife(boards.board)
 
 while True:
