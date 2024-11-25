@@ -62,6 +62,7 @@ class GameOfLife:
 # game object
 game = GameOfLife(boards.board)
 
+# run game
 while True:
     time.sleep(0.1)
     os.system('cls' if os.name == 'nt' else 'clear')
